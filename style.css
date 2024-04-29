@@ -1,0 +1,318 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      scroll-behavior: smooth;
+}
+
+body {
+      background-color: rgb(0, 119, 255);
+      color: aliceblue;
+}
+
+header {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 100px;
+      color: rgb(193, 195, 200);
+      cursor: pointer;
+      position: sticky;
+      top: 0;
+}
+
+header h1 a {
+      color: rgb(0, 38, 255);
+}
+
+nav ul {
+      display: flex;
+      list-style: none;
+      gap: 50px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: rgb(57, 96, 187);
+      transition: all;
+      transition-duration: 100ms;
+}
+
+nav ul li a:hover {
+      border-bottom: 2px solid rgb(30, 32, 35);
+      color: rgb(13, 14, 15);
+      padding: 5px 0;
+}
+
+
+
+/* home */
+
+
+#home {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 200px 50px;
+      gap: 250px;
+}
+
+#home img {
+      width: 250px;
+      height: 300px;
+      border-radius: 20px;
+      transition: all;
+      transition-duration: 300ms;
+      cursor: pointer;
+}
+
+#home img:hover {
+      box-shadow: 0 0 20px 10px rgba(57, 103, 210, 0.827);
+      border-radius: 50px 50px 0 0;
+}
+
+#home h1 {
+      padding-top: 10px;
+}
+
+#home h1 a {
+      color: blue;
+} 
+
+.tombol-satu {
+      background-color: rgba(190, 211, 228, 0.457);
+      cursor: pointer;
+      width: 70px;
+      padding: 5px;
+      text-align: center;
+      border-radius: 20px;
+      transition: all;
+      transition-duration: 300ms;
+}
+
+
+.tombol-satu a {
+      color: rgb(216, 216, 216);
+      text-decoration: none;
+}
+
+.tombol-satu:hover {
+      background-color: rgb(12, 22, 216);
+}
+
+#home h4 {
+      padding-bottom: 30px;
+}
+
+
+/* about */
+
+#about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 200px 50px;
+      gap: 300px;
+}
+
+#about img {
+      width: 300px;
+      height: 400px;
+      border-radius: 50%;
+}
+
+#about p {
+      padding: 10px 0;
+}
+
+#about h1 a {
+      color: blue;
+}
+
+
+
+
+/* projeck */
+
+
+#projeck {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 200px 50px;
+      gap: 150px;
+}
+
+#projeck img {
+      width: 600px;
+      height: 400px;
+      border-radius: 30px;
+}
+
+#projeck p {
+      padding-bottom: 20px;
+}
+
+#projeck h1 a {
+      color: blue;
+}
+
+
+.tombol-dua {
+      background-color: rgba(191, 204, 215, 0.568);
+      cursor: pointer;
+      width: 70px;
+      padding: 5px;
+      text-align: center;
+      border-radius: 20px;
+      transition: all;
+      transition-duration: 300ms;
+}
+
+.tombol-dua a {
+      color: aliceblue;
+      text-decoration: none;
+}
+
+.tombol-dua:hover {
+      background-color: rgb(12, 22, 216);
+}
+
+
+
+
+/* contack */
+
+#contack {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      padding: 100px 0;
+}
+
+.wa {
+      width: 200px;
+      height: 200px;
+      background-color: rgba(238, 242, 245, 0);
+      border: 0.2px solid rgb(145, 178, 224);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      transition: all;
+      transition-duration: 300ms;
+      box-shadow: 0 0 50px 10px rgba(45, 144, 230, 0);
+}
+
+
+.wa:hover {
+      box-shadow: 0 0 50px 10px rgba(251, 251, 255, 0.315);
+      color: aliceblue;
+      cursor: pointer;
+}
+
+
+.wa img {
+      width: 50px;
+      padding: 5px;
+}
+
+.wa div {
+      padding: 15px 0;
+}
+
+
+
+.hp {
+      width: 200px;
+      height: 200px;
+      background-color: rgba(238, 242, 245, 0);
+      border: 0.2px solid rgb(145, 178, 224);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      transition: all;
+      transition-duration: 300ms;
+      box-shadow: 0 0 50px 10px rgba(45, 144, 230, 0);
+}
+
+.hp:hover {
+      box-shadow: 0 0 50px 10px rgba(251, 251, 255, 0.315);
+      color: aliceblue;
+      cursor: pointer;
+}
+
+.hp img {
+      width: 50px;
+      padding: 5px;
+}
+
+.hp div {
+      padding: 15px 0;
+}
+
+
+
+.ig {
+      width: 200px;
+      height: 200px;
+      background-color: rgba(240, 244, 249, 0);
+      border: 1px solid rgb(145, 178, 224);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      transition: all;
+      transition-duration: 300ms;
+      box-shadow: 0 0 50px 10px rgba(45, 144, 230, 0);
+}
+
+
+.ig:hover {
+      box-shadow: 0 0 50px 10px rgba(251, 251, 255, 0.315);
+      color: aliceblue;
+      cursor: pointer;
+}
+
+
+
+.ig img {
+      width: 50px;
+      padding: 5px;
+}
+
+
+.ig div {
+      padding: 15px 0;
+}
+
+
+
+.back-top {
+      display: flex;
+      bottom: 30px;
+      right: 10px;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      border-radius: 50%;
+      padding: 10px;
+}
+
+
+.back-top img {
+      width: 20px;
+}
+
+
+
+
+
+
+.pembuat {
+      background-color: rgb(12, 63, 107);
+      text-align: center;
+      padding: 10px;
+      color: aliceblue;
+}
+
+
